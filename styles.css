@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #5da2e6; 
+    color: #fff; 
+    display:flex;
+}
+
+header p
+{
+    font-size: 25px
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display:block;
+    text-align: center;
+    background-color: #051c5f;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff; 
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.8em;
+    color: #fff;
+}
+#Image-user
+{
+    max-width: 200px;
+}
+#location
+{
+    margin: 15px;
+}
+#ig, #gmail
+{
+    margin:20px;
+    color: #fff;
+    text-decoration:none;
+}
+
+section {
+    background-color: #1f53f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #fff;
+    border-bottom: 2px solid #fff; 
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #fff; 
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    text-align: center;
+    color: #fff; 
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #fff; 
+}
+
+#about-me,#proyects,#habilities,#education,#languajes
+{
+    margin: 5px;
+    display:block;
+}
+#preview1, #preview2
+{
+    display: flex;
+    justify-content:center;
+    color: #db919f;
+}
